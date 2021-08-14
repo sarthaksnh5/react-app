@@ -7,11 +7,10 @@ import UnitsPicker from './components/UnitsPicker';
 import { colors } from '../weather-app-reat/utils/index'
 import ReloadIcon from './components/ReloadIcon';
 import WeatherDetails from './components/WeatherDetails';
-//import { apiKey } from 'react-native-dotenv'
+import { apiKey } from 'react-native-dotenv'
 
 const {PRIMARY_COLOR, SECONDARY_COLOR, BORDER_COLOR } = colors
 
-const apiKey = "fa862172403ad7caf125160be68be451"
 const baseURL = "https://api.openweathermap.org/data/2.5/weather?"
 
 export default function App() {
